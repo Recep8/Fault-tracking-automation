@@ -17,14 +17,27 @@ namespace Proje
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+
+        private void personel_giris_buton_Click(object sender, EventArgs e)
         {
-            label1.Text = "recep";
+            Form2 f2 = new Form2();
+            f2.Show();
+            this.Hide();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void musteri_giris_buton_Click(object sender, EventArgs e)
         {
+            Form3 f3 = new Form3();
+            f3.Show();
+            this.Hide();
+        }
 
+        private void yonetici_giris_buton_Click(object sender, EventArgs e)
+        {
+            Form4 f4 = new Form4();
+            f4.Show();
+            this.Hide();
         }
     }
 }
