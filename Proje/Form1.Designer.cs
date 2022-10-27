@@ -55,7 +55,7 @@ namespace Proje
             // personel_giris_buton
             // 
             this.personel_giris_buton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.personel_giris_buton.Location = new System.Drawing.Point(289, 263);
+            this.personel_giris_buton.Location = new System.Drawing.Point(289, 297);
             this.personel_giris_buton.Name = "personel_giris_buton";
             this.personel_giris_buton.Size = new System.Drawing.Size(208, 86);
             this.personel_giris_buton.TabIndex = 0;
@@ -66,7 +66,7 @@ namespace Proje
             // musteri_giris_buton
             // 
             this.musteri_giris_buton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.musteri_giris_buton.Location = new System.Drawing.Point(542, 263);
+            this.musteri_giris_buton.Location = new System.Drawing.Point(546, 297);
             this.musteri_giris_buton.Name = "musteri_giris_buton";
             this.musteri_giris_buton.Size = new System.Drawing.Size(208, 86);
             this.musteri_giris_buton.TabIndex = 1;
@@ -77,7 +77,7 @@ namespace Proje
             // yonetici_giris_buton
             // 
             this.yonetici_giris_buton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.yonetici_giris_buton.Location = new System.Drawing.Point(31, 263);
+            this.yonetici_giris_buton.Location = new System.Drawing.Point(30, 297);
             this.yonetici_giris_buton.Name = "yonetici_giris_buton";
             this.yonetici_giris_buton.Size = new System.Drawing.Size(208, 86);
             this.yonetici_giris_buton.TabIndex = 2;

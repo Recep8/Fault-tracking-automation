@@ -21,21 +21,21 @@ namespace Proje
 
         private void personel_giris_buton_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
+            Form2 f2 = new Form2();                 //PERSONEL GİRİŞ ANA SAYFASINA YÖNLENDİRİR.
             f2.Show();
             this.Hide();
         }
 
         private void musteri_giris_buton_Click(object sender, EventArgs e)
         {
-            Form3 f3 = new Form3();
+            frmmusterigirisekrani f3 = new frmmusterigirisekrani();                 //MÜŞTERİ GİRİŞ ANA SAYFASINA YÖNLENDİRİR.
             f3.Show();
             this.Hide();
         }
 
         private void yonetici_giris_buton_Click(object sender, EventArgs e)
         {
-            Form4 f4 = new Form4();
+            frmyoneticigirisekrani f4 = new frmyoneticigirisekrani();                 //YÖNETİCİ GİRİŞ ANA SAYFASINA YÖNLENDİRİR.
             f4.Show();
             this.Hide();
         }

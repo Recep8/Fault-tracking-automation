@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Proje
 {
-    public partial class Form4 : Form
+    public partial class Form2 : Form
     {
-        public Form4()
+        public Form2()
         {
             InitializeComponent();
+        }
+
+        private void geri_butonu_personel_giris_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+            this.Hide();                        //ANA EKRANA DÖNÜYOR
         }
     }
 }

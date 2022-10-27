@@ -36,6 +36,7 @@ namespace Proje
             this.sifre_sifirlama_link_label = new System.Windows.Forms.LinkLabel();
             this.label2 = new System.Windows.Forms.Label();
             this.sifre = new System.Windows.Forms.Label();
+            this.geri_butonu_personel_giris = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -93,17 +94,32 @@ namespace Proje
             // sifre
             // 
             this.sifre.AutoSize = true;
+            this.sifre.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.sifre.Location = new System.Drawing.Point(193, 325);
             this.sifre.Name = "sifre";
             this.sifre.Size = new System.Drawing.Size(38, 13);
             this.sifre.TabIndex = 6;
             this.sifre.Text = "ŞİFRE";
             // 
+            // geri_butonu_personel_giris
+            // 
+            this.geri_butonu_personel_giris.BackColor = System.Drawing.SystemColors.Control;
+            this.geri_butonu_personel_giris.BackgroundImage = global::Proje.Properties.Resources.Adsız;
+            this.geri_butonu_personel_giris.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.geri_butonu_personel_giris.Location = new System.Drawing.Point(16, 366);
+            this.geri_butonu_personel_giris.Name = "geri_butonu_personel_giris";
+            this.geri_butonu_personel_giris.Size = new System.Drawing.Size(72, 72);
+            this.geri_butonu_personel_giris.TabIndex = 7;
+            this.geri_butonu_personel_giris.UseVisualStyleBackColor = false;
+            this.geri_butonu_personel_giris.Click += new System.EventHandler(this.geri_butonu_personel_giris_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.geri_butonu_personel_giris);
             this.Controls.Add(this.sifre);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.sifre_sifirlama_link_label);
@@ -127,5 +143,6 @@ namespace Proje
         private System.Windows.Forms.LinkLabel sifre_sifirlama_link_label;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label sifre;
+        private System.Windows.Forms.Button geri_butonu_personel_giris;
     }
 }
